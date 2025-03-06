@@ -13,7 +13,7 @@ try:
     client = gspread.authorize(creds)
 
     # Open the Google Sheet by its ID
-    sheet_id = '1ACcOdOPvFBZnlC_i-wGWSe4uuV5h015zsbbxzg8yAv8'
+    sheet_id = 'your_google_sheet_id_here'
     workbook = client.open_by_key(sheet_id)
 
     print(f"Successfully accessed sheet: {workbook.title}")
